@@ -1,0 +1,17 @@
+header {
+  background-color: orangered;
+  color: white;
+  height: 3em;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header li {
+  display: inline;
+  padding: var(--space-s);
+  list-style-type: none;
+}
+
+main {
+}
