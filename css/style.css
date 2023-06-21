@@ -4,6 +4,7 @@
 
 /* header */
 header {
+  z-index: 10;
   background-color: orangered;
   /* background-color: rgba(100, 100, 100, 0.5); */
   color: white;
@@ -35,7 +36,7 @@ header a {
 }
 
 .container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -92,6 +93,7 @@ header a {
   z-index: 1;
   bottom: 5%;
   left: 5%;
+  color: white;
 }
 .item-discount {
   display: inline-block;
@@ -100,7 +102,6 @@ header a {
   line-height: 1em;
   text-align: center;
   background-color: red;
-  color: black;
 }
 .item-caratteristics {
   display: inline-block;
@@ -109,7 +110,6 @@ header a {
   line-height: 1em;
   text-align: center;
   background-color: green;
-  color: black;
 }
 
 /* flex */
