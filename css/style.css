@@ -46,6 +46,16 @@ header a {
   max-width: 30%;
   margin: 30px 0px;
 }
+
+.hidden {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+.card:hover .hidden {
+  display: inline-block;
+}
 .prize {
   color: red;
   display: inline;
