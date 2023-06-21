@@ -1,10 +1,14 @@
 header {
   background-color: orangered;
+  /* background-color: rgba(100, 100, 100, 0.5); */
   color: white;
   height: 3em;
   position: sticky;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+}
+img {
+  width: 100%;
 }
 
 header li {
@@ -13,5 +17,24 @@ header li {
   list-style-type: none;
 }
 
+li a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 main {
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.fl-space-between {
+  justify-content: space-between;
+}
+.fl-justify-center {
+  justify-content: center;
+}
+.fl-align-center {
+  align-items: center;
 }
