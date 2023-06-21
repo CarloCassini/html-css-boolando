@@ -9,6 +9,7 @@ header {
   /* background-color: rgba(100, 100, 100, 0.5); */
   color: white;
   height: var(--header-height);
+  vertical-align: middle;
   position: sticky;
   top: 0px;
   left: 0px;
@@ -22,7 +23,7 @@ header .max-heigh {
 
 header li {
   display: inline;
-  padding: var(--space-s);
+  padding-right: var(--space-s);
   list-style-type: none;
 }
 
@@ -36,11 +37,24 @@ footer {
   background-color: black;
   color: white;
   padding: var(--space-s);
+  vertical-align: middle  ;
+}
+
+footer li {
+  display: inline;
+  margin: 0px;
+  padding-right: var(--space-s);
+  list-style-type: none;
+  font-size: x-small;
 }
 
 footer a {
   text-decoration: none;
   color: currentColor;
+}
+
+foot-icon {
+  align
 }
 
 img {
