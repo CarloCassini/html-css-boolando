@@ -46,6 +46,9 @@ header a {
   max-width: 30%;
   margin: 30px 0px;
 }
+.card-img {
+  position: relative;
+}
 
 .hidden {
   position: absolute;
@@ -63,6 +66,28 @@ header a {
 .disconunted {
   display: inline;
   text-decoration: line-through;
+}
+
+.item-feature {
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
+  left: 5%;
+}
+.item-discount {
+  display: inline-block;
+
+  line-height: 1em;
+  text-align: center;
+  background-color: red;
+  color: black;
+}
+.item-caratteristics {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+  background-color: green;
+  color: black;
 }
 
 /* flex */
