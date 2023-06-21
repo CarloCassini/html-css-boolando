@@ -37,7 +37,7 @@ footer {
   background-color: black;
   color: white;
   padding: var(--space-s);
-  vertical-align: middle  ;
+  vertical-align: middle ;
 }
 
 footer li {
@@ -110,7 +110,7 @@ img {
 .heart::after {
   content: "	\2764";
 }
-.heart:hover .heart {
+.heart:hover.heart {
   color: red;
 }
 
